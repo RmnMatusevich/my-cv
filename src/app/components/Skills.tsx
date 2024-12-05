@@ -1,12 +1,12 @@
 import { Badge } from "@/components/ui/badge";
 import { Section } from "@/components/ui/section";
-import { RESUME_DATA } from "@/data/resume-data";
+// import { RESUME_DATA } from "@/data/resume-data";
 import { cn } from "@/lib/utils";
 
-type Skills = readonly string[];
+type SkillsType = readonly string[];
 
 interface SkillsListProps {
-  skills: Skills;
+  skills: SkillsType;
   className?: string;
 }
 
@@ -31,7 +31,7 @@ function SkillsList({ skills, className }: SkillsListProps) {
 }
 
 interface SkillsProps {
-  skills: Skills;
+  skills: SkillsType;
   className?: string;
 }
 

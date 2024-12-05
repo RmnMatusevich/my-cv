@@ -2,11 +2,11 @@ import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Section } from "@/components/ui/section";
 import { RESUME_DATA } from "@/data/resume-data";
 
-type Education = (typeof RESUME_DATA)["education"][number];
+type EducationType = (typeof RESUME_DATA)["education"][number];
 
 interface EducationPeriodProps {
-  start: Education["start"];
-  end: Education["end"];
+  start: EducationType["start"];
+  end: EducationType["end"];
 }
 
 /**
@@ -24,7 +24,7 @@ function EducationPeriod({ start, end }: EducationPeriodProps) {
 }
 
 interface EducationItemProps {
-  education: Education;
+  education: EducationType;
 }
 
 /**
@@ -59,7 +59,7 @@ function EducationItem({ education }: EducationItemProps) {
 }
 
 interface EducationListProps {
-  education: readonly Education[];
+  education: readonly EducationType[];
 }
 
 /**

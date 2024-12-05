@@ -4,7 +4,7 @@ import { Section } from "@/components/ui/section";
 import { RESUME_DATA } from "@/data/resume-data";
 import { cn } from "@/lib/utils";
 
-type WorkExperience = (typeof RESUME_DATA)["work"][number];
+type WorkExperienceType = (typeof RESUME_DATA)["work"][number];
 type WorkBadges = readonly string[];
 
 interface BadgeListProps {
@@ -39,8 +39,8 @@ function BadgeList({ className, badges }: BadgeListProps) {
 }
 
 interface WorkPeriodProps {
-  start: WorkExperience["start"];
-  end?: WorkExperience["end"];
+  start: WorkExperienceType["start"];
+  end?: WorkExperienceType["end"];
 }
 
 /**
@@ -58,8 +58,8 @@ function WorkPeriod({ start, end }: WorkPeriodProps) {
 }
 
 interface CompanyLinkProps {
-  company: WorkExperience["company"];
-  link: WorkExperience["link"];
+  company: WorkExperienceType["company"];
+  link: WorkExperienceType["link"];
 }
 
 /**
@@ -80,7 +80,7 @@ function CompanyLink({ company, link }: CompanyLinkProps) {
 }
 
 interface WorkExperienceItemProps {
-  work: WorkExperience;
+  work: WorkExperienceType;
 }
 
 /**
