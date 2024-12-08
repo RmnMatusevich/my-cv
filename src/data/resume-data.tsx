@@ -1,11 +1,3 @@
-import {
-  ClevertechLogo,
-  ConsultlyLogo,
-  JojoMobileLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -53,7 +45,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Volvo",
-      link: "https://film.io",
+      link: "https://www.volvoce.com/",
       badges: [
         "On Site",
         "React",
@@ -65,7 +57,6 @@ export const RESUME_DATA = {
         "3rd parties integrations",
       ],
       title: "Senior Software Engineer",
-      logo: ConsultlyLogo,
       start: "2022",
       end: "2024",
       description: (
@@ -81,7 +72,7 @@ export const RESUME_DATA = {
             <li>Implementing monitoring and security improvements</li>
           </ul>
           Perform backend development using Nest.js to build scalable and
-          integrationable solution.
+          integration-friendly solution.
           <ul className="list-inside list-disc">
             <li>
               Building API with Nest.js that provision REST, GraphQL, as well as
@@ -109,7 +100,6 @@ export const RESUME_DATA = {
         "Tailwind",
       ],
       title: "Senior Software Engineer",
-      logo: ParabolLogo,
       start: "2021",
       end: "2022",
       description: (
@@ -148,7 +138,6 @@ export const RESUME_DATA = {
         "web3",
       ],
       title: "Software Engineer",
-      logo: ClevertechLogo,
       start: "2021",
       end: "2022",
       description: (
@@ -196,7 +185,6 @@ export const RESUME_DATA = {
         "blockchain",
       ],
       title: "Software Engineer",
-      logo: JojoMobileLogo,
       start: "2020",
       end: "2021",
       description: (
@@ -238,7 +226,6 @@ export const RESUME_DATA = {
         "JQuery",
       ],
       title: "Junior Software Engineer",
-      logo: NSNLogo,
       start: "2019",
       end: "2020",
       description: (
@@ -289,45 +276,45 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
-      description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Consultly",
+      title: "Kryptomon",
       techStack: [
         "TypeScript",
         "Next.js",
-        "Vite",
+        "web3",
+        "TheGraph",
         "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
+        "MongoDB",
         "Redis",
       ],
-      description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      logo: ConsultlyLogo,
+      description: "Marketplace for in-game NFT characters",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "hub.kryptomon.co",
+        href: "https://hub.kryptomon.co/open-marketplace",
       },
     },
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      logo: MonitoLogo,
+      title: "Pletly",
+      techStack: [
+        "TypeScript",
+        "Nest.js",
+        "React Native",
+        "GraphQL",
+        "PostgreSQL",
+      ],
+      description: "Mobile application for people with disabilities",
       link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "pletly.com",
+        href: "https://pletly.com/",
+      },
+    },
+    {
+      title: "Sagetap",
+      techStack: ["React", "Flow", "Redux", "MUI"],
+      description:
+        "B2B paltform that helps to connect Software Vendors with business",
+      link: {
+        label: "sagetap.io",
+        href: "https://www.sagetap.io/",
       },
     },
   ],

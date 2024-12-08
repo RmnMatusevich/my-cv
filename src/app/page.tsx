@@ -2,7 +2,7 @@ import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { RESUME_DATA } from "@/data/resume-data";
 import { WorkExperience } from "./components/WorkExperience";
-// import { Projects } from "./components/Projects";
+import { Projects } from "./components/Projects";
 import { Education } from "./components/Education";
 import { Summary } from "./components/Summary";
 import { Skills } from "./components/Skills";
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://cv.jarocki.me/opengraph-image",
+        url: "https://res.cloudinary.com/dmciufuwq/image/upload/v1733691631/e8yakiizwpobmub5plu8.png",
         width: 1200,
         height: 630,
         alt: `${RESUME_DATA.name}'s profile picture`,
@@ -29,7 +29,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${RESUME_DATA.name} - Resume`,
     description: RESUME_DATA.about,
-    images: ["https://cv.jarocki.me/opengraph-image"],
+    images: [
+      "https://res.cloudinary.com/dmciufuwq/image/upload/v1733691631/e8yakiizwpobmub5plu8.png",
+    ],
   },
 };
 
@@ -80,7 +82,7 @@ export default function ResumePage() {
 
           <Skills skills={RESUME_DATA.skills} />
 
-          {/* <Projects projects={RESUME_DATA.projects} /> */}
+          <Projects projects={RESUME_DATA.projects} />
         </div>
       </section>
 
