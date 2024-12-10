@@ -5,14 +5,24 @@ export const RESUME_DATA = {
   initials: "RM",
   location: "Warsaw, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Warsaw",
-  about:
-    "Experienced Software Engineer passionate about crafting robust, scalable, and high-quality software solutions.",
+  about: "Senior Software Engineer",
   summary: (
     <>
-      Experienced Senior Software Engineer with a strong focus on creating
-      reliable, efficient, and high-quality software solutions. I’m passionate
-      about delivering impactful products by cosmbining technical expertise with
-      a commitment to excellence in every stage of development.
+      I am an experienced developer with a passion for crafting scalable and
+      user-friendly applications, bringing deep expertise in both frontend and
+      backend development. On the frontend, I specialize in creating dynamic,
+      responsive interfaces using React, Next.js, Remix and React Native. On the
+      backend, I leverage Node.js with NestJS to build reliable server
+      architectures and APIs. My experience extends to designing REST and
+      GraphQL APIs, setting up and configuring communication channels,
+      integrating third-party services like Stripe and Firebase, and managing
+      databases like PostgreSQL, MongoDB, and Redis. I also bring a strong
+      foundation in cloud platforms like Azure and AWS, enabling efficient
+      deployments and scalable solutions. My background in full-stack
+      development equips me to seamlessly connect technical vision with
+      real-world outcomes. I’m confident that with my skills and dedication, I
+      can bring value to your project, ensuring it meets your goals efficiently
+      and effectively while delivering amazing results.
     </>
   ),
   avatarUrl:
