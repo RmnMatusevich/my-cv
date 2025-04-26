@@ -8,25 +8,19 @@ export const RESUME_DATA = {
   about: "Senior Software Engineer",
   summary: (
     <>
-      I am an experienced developer with a passion for crafting scalable and
-      user-friendly applications, bringing deep expertise in both frontend and
-      backend development. On the frontend, I specialize in creating dynamic,
-      responsive interfaces using React, Next.js, Remix and React Native. On the
-      backend, I leverage Node.js with NestJS to build reliable server
-      architectures and APIs. My experience extends to designing REST and
-      GraphQL APIs, setting up and configuring communication channels,
-      integrating third-party services like Stripe and Firebase, and managing
-      databases like PostgreSQL, MongoDB, and Redis. I also bring a strong
-      foundation in cloud platforms like Azure and AWS, enabling efficient
-      deployments and scalable solutions. My background in full-stack
-      development equips me to seamlessly connect technical vision with
-      real-world outcomes. I’m confident that with my skills and dedication, I
-      can bring value to your project, ensuring it meets your goals efficiently
-      and effectively while delivering amazing results.
+      Experienced Senior Software Engineer with expertise in full-stack
+      development, specializing in building scalable, user-friendly
+      applications. Proficient in React, Next.js, Node.js, and NestJS, with
+      extensive experience in developing RESTful and GraphQL APIs, integrating
+      third-party services like Stripe and Firebase, and managing databases such
+      as PostgreSQL, MongoDB, and Redis. Strong foundation in cloud platforms
+      (AWS, Azure) and a track record of delivering high-quality solutions
+      aligned with business goals. Well-organized with friendly communication
+      skills.
     </>
   ),
   avatarUrl:
-    "https://media.licdn.com/dms/image/v2/C4D03AQHZizgvGDTEDA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1668096966064?e=1738800000&v=beta&t=mb64AtqNSd0o3adhRBd--YdcvjXyMOnYPHHqaBIrzbA",
+    "https://res.cloudinary.com/dmciufuwq/image/upload/t_avatar/uruvoviru3onatrofamf",
   personalWebsiteUrl: "",
   contact: {
     email: "rmnmatusevich@gmail.com",
@@ -67,34 +61,34 @@ export const RESUME_DATA = {
         "3rd parties integrations",
       ],
       title: "Senior Software Engineer",
-      start: "2022",
-      end: "2024",
+      start: "09/2022",
+      end: "12/2024",
       description: (
-        <>
-          Leading frontend development using React to build maintanable solution
-          using best possible UX/UI principles.
-          <ul className="list-inside list-disc">
-            <li>Frontend Architecture setup and technology stack creation</li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>Implementing monitoring and security improvements</li>
-          </ul>
-          Perform backend development using Nest.js to build scalable and
-          integration-friendly solution.
-          <ul className="list-inside list-disc">
-            <li>
-              Building API with Nest.js that provision REST, GraphQL, as well as
-              Event-Driven solution with Azure communication channels
-            </li>
-            <li>Identify high-level and low-level architecture</li>
-            <li>Integrations with 3rd party services</li>
-            <li>Backoffice development</li>
-          </ul>
-          Being a part of recruitment proccess to involve professionals in
-          company.
-        </>
+        <ul className="list-inside list-disc">
+          <li>
+            Led frontend development with React to deliver maintainable,
+            UX/UI-optimized solution for 6000+ end-customers; established
+            frontend architecture and tech stack; set up release processes that
+            reduced deployment issue detection to 15 minutes.
+          </li>
+          <li>
+            Optimized release processes with CI/CD pipelines, cutting deployment
+            issue detection to 15 minutes and enabling 99.9% uptime.
+          </li>
+          <li>
+            Engineered scalable Nest.js backend APIs with REST, GraphQL, and
+            Azure event-driven communication, supporting 5x transaction growth
+            and integrating third-party services.
+          </li>
+          <li>
+            Developed backoffice systems and implemented advanced monitoring,
+            reducing incident response time by 50%.
+          </li>
+          <li>
+            Participated in mentorship program as a mentor and led recruitment
+            to onboard 10+ professionals, enhancing team capacity by 10%.
+          </li>
+        </ul>
       ),
     },
     {
@@ -110,74 +104,30 @@ export const RESUME_DATA = {
         "Tailwind",
       ],
       title: "Senior Software Engineer",
-      start: "2021",
-      end: "2022",
+      start: "10/2021",
+      end: "08/2022",
       description: (
         <>
           Developing full stack mobile application. Specialized for people with
           disabilities.
           <ul className="list-inside list-disc">
-            <li>Built mobile application with React Native and Expo</li>
-            <li>Implementing multi-tenant chat functionality</li>
-            <li>Developing GraphQL apis</li>
-            <li>Developing multi-step account creation and verification</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Upwork",
-      link: "https://www.upwork.com/freelancers/~01a33fed7f8a68406e?mp_source=share",
-      badges: [
-        "Remote",
-        "React",
-        "Next.js",
-        "TypeScript",
-        "Node.js",
-        "Nest.js",
-        "Express.js",
-        "React Native",
-        "Stripe",
-        "Ecommerce",
-        "Firebase",
-        "PosgreSQL",
-        "MongoDB",
-        "Redis",
-        "AWS",
-        "Expo",
-        "web3",
-      ],
-      title: "Software Engineer",
-      start: "2021",
-      end: "2022",
-      description: (
-        <>
-          Developing application and consult companies to achive goals,
-          requirements management, high- and low-level architecture.
-          <ul className="list-inside list-disc">
             <li>
-              Search Platform for a Music App: Developed with React and
-              TypeScript for real-time music discovery
+              Built a React Native healthcare app for 3,000+ children with
+              disabilities, featuring accessible UI and real-time chat (1-to-1,
+              group, video/photo sharing, message editor), boosting caregiver
+              engagement by 40%.
             </li>
             <li>
-              Anonymous Gift App: Built mobile app using React Native to support
-              anonymous gifting.
+              Crafted a scalable Nest.js backend with GraphQL APIs, handling
+              7,500+ therapy sessions and 10,000+ messages monthly.
             </li>
             <li>
-              Parcel Delivery App: Created a web solution integrating Shippo for
-              logistics and Stripe for payments.
+              Leveraged Expo to streamline app development and publishing,
+              cutting build time by 70% and accelerating releases.
             </li>
             <li>
-              Real Estate App: Developed a mobile app for property management
-              using React Native and Express.
-            </li>
-            <li>
-              NFT Marketplace for Game: Integrated The Graph and TypeScript for
-              seamless transactions
-            </li>
-            <li>
-              Event Booking Platform: Built a comprehensive system with MongoDB,
-              Stripe, and GiftUp for payments and subscriptions
+              Integrated HIPAA-compliant APIs for secure data exchange, reducing
+              data retrieval time by 20%.
             </li>
           </ul>
         </>
@@ -195,27 +145,24 @@ export const RESUME_DATA = {
         "blockchain",
       ],
       title: "Software Engineer",
-      start: "2020",
-      end: "2021",
+      start: "09/2020",
+      end: "09/2021",
       description: (
-        <>
-          <ul className="list-inside list-disc">
-            <li>
-              Social Networking App: Designed a React Native application to
-              foster user connections.
-            </li>
-            <li>
-              IT Communications Startup: Contributed to an innovative
-              communication platform for businesses.
-            </li>
-            <li>
-              Crypto Web Wallet: Developed a crypto wallet supporting rUSDT,
-              rETH, rBTC, and other tokens. Features included Transfer, Deposit,
-              Investment, Staking, and Pooling, leveraging Polkadot and Ethereum
-              APIs.
-            </li>
-          </ul>
-        </>
+        <ul className="list-inside list-disc">
+          <li>
+            Developed a React Native social network app for 5,000+ users,
+            enhancing connectivity and user retention by 30%.
+          </li>
+          <li>
+            Built a crypto web wallet with Polkadot and Ethereum APIs (rUSDT,
+            rETH, rBTC, RFUEL), supporting 2,000+ daily transactions for
+            Transfer, Deposit, Withdraw, Investment, Staking, and Pooling.
+          </li>
+          <li>
+            Improved client collaboration features for an IT startup as a React
+            developer, increasing efficiency by 30%.
+          </li>
+        </ul>
       ),
     },
     {
@@ -236,35 +183,45 @@ export const RESUME_DATA = {
         "JQuery",
       ],
       title: "Junior Software Engineer",
-      start: "2019",
-      end: "2020",
+      start: "04/2019",
+      end: "09/2020",
       description: (
-        <>
-          Here is where career starts...
-          <ul className="list-inside list-disc">
-            <li>Database Architecutre Design.</li>
-            <li>Building reusable and adaptive components with React.</li>
-            <li>
-              Creation of storage for video files shared on Training Portal.
-            </li>
-            <li>
-              Setting up deployement strategies and manage deployement ecosystem
-              with AWS. Partially being as DevOps specialist.
-            </li>
-            <li>
-              Taking part in creation of single-tenant database for multi-tenant
-              application, where each database hosted for newly registered user.
-            </li>
-            <li>
-              Developing secured chat channels with data compressing and
-              decompressing, encryption and chunking.
-            </li>
-          </ul>
-        </>
+        <ul className="list-inside list-disc">
+          <li>
+            Engineered a React/TypeScript music search platform, improving
+            search efficiency by 80% for 5,000+ users.
+          </li>
+          <li>
+            Developed a React Native gift-sending app, achieving 10,000+
+            downloads and 1,500+ monthly transactions.{" "}
+          </li>
+          <li>
+            Built a US parcel delivery integration with Shippo and Stripe,
+            processing 1,500+ parcels monthly.
+          </li>
+          <li>
+            Designed a business platform with event booking, payment, and
+            subscription features using React, TypeScript, Express, MongoDB,
+            Stripe, and GiftUp, serving 4,000+ monthly bookings.
+          </li>
+          <li>
+            Created a Real Estate app with React Native, Express, and
+            TypeScript, supporting 1,000+ listings.
+          </li>
+          <li>
+            Designed an NFT Marketplace with The Graph, React, and TypeScript,
+            handling 1,000+ trades.
+          </li>
+          <li>
+            Built a business platform with React, TypeScript, Express, MongoDB,
+            Stripe, and GiftUp, serving 4,000+ monthly bookings.
+          </li>
+        </ul>
       ),
     },
   ],
   skills: [
+    "Javascript",
     "React/Next.js/Remix",
     "TypeScript",
     "Tailwind CSS/MUI/Ant/Custom design systems",
@@ -283,6 +240,8 @@ export const RESUME_DATA = {
     "AWS",
     "System Architecture",
     "Business prototyping",
+    "AI",
+    "Quality Assurance",
   ],
   projects: [
     {

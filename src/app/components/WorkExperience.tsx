@@ -132,7 +132,7 @@ export function WorkExperience({ work }: WorkExperienceProps) {
   return (
     <Section>
       <h2 className="text-xl font-bold" id="work-experience">
-        Work Experience
+        Work History
       </h2>
       <div
         className="space-y-4 print:space-y-0"
